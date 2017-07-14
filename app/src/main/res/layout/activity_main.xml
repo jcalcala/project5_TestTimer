@@ -15,4 +15,35 @@
         android:text="@string/hello_world"
         android:textSize="20sp" />
 
+    <Button
+        android:id="@+id/startButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/messageTextView"
+        android:layout_alignStart="@+id/messageTextView"
+        android:layout_below="@+id/messageTextView"
+        android:layout_marginTop="29dp"
+        android:onClick="startTime"
+        android:text="START" />
+
+    <Button
+        android:id="@+id/stopButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/startButton"
+        android:layout_toEndOf="@+id/messageTextView"
+        android:layout_toRightOf="@+id/messageTextView"
+        android:onClick="stopTime"
+        android:text="STOP" />
+
+    <TextView
+        android:id="@+id/rssTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/startButton"
+        android:layout_alignStart="@+id/startButton"
+        android:layout_below="@+id/startButton"
+        android:layout_marginTop="31dp"
+        android:text="File downloaded 0 time(s)" />
+
 </RelativeLayout>

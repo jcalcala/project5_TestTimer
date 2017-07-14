@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- From: file:/C:/murach/android2/instructors/more_ex_starts/ch10_ex5_TestTimer/app/src/main/res/values/strings.xml -->
-    <eat-comment/>
     <string name="app_name">ch10_examples</string>
     <string name="hello_world">Hello world!</string>
     <string name="menu_settings">Settings</string>
-    <!-- From: file:/C:/murach/android2/instructors/more_ex_starts/ch10_ex5_TestTimer/app/src/main/res/values/styles.xml -->
-    <eat-comment/>
     <style name="AppTheme" parent="android:Theme.Holo.Light.DarkActionBar"/>
 </resources>
